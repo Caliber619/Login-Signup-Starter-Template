@@ -108,7 +108,8 @@ return (
     <div className="w-1/2 flex justify-center items-center bg-blue-50">
                   <motion.img
                     className="w-full h-auto"
-                    src="src\assets\image2.jpg"
+                    // src="src\assets\image2.jpg"
+                    src = "https://images.pexels.com/photos/31002082/pexels-photo-31002082/free-photo-of-vibrant-neon-signs-in-tokyo-anime-restaurant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Safe Box"
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}

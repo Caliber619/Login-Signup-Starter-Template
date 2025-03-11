@@ -5,12 +5,20 @@ import { getAuth, GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    // apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    // authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    // projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    // storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    // messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    // appId: import.meta.env.VITE_FIREBASE_APP_ID,
+
+    apiKey: "AIzaSyDcvs1hcEwaCZk5OukwbkrsO5JSE0ZI0o0",
+    authDomain: "logintempl-3bd2a.firebaseapp.com",
+    projectId: "logintempl-3bd2a",
+    storageBucket: "logintempl-3bd2a.firebasestorage.app",
+    messagingSenderId: "644452815952",
+    appId: "1:644452815952:web:80f5f94a7351869b6e2d55",
+
   };
 
 //initializing firebase
